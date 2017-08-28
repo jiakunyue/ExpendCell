@@ -1,2 +1,2 @@
 # ExpendCell
-cell 展开
+cell 展开显示更多内容
