@@ -10,6 +10,13 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+typedef enum : NSUInteger {
+    
+    kShowTextCellNormalType,
+    kShowTextCellExpendType,
+    
+} EShowTextCellType;
+
 @interface Model : NSObject
 /** 内容 */
 @property (nonatomic, copy) NSString *text;
