@@ -33,7 +33,7 @@
     // One line height.
     _normalStringHeight = 10 + normalTextHeight + 10;
     
-    if (_cellType == 0) {
+    if (_cellType == kShowTextCellNormalType) {
         
         return _normalStringHeight;
     } else {
