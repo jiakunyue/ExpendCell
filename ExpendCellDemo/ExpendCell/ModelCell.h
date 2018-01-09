@@ -10,13 +10,6 @@
 
 @class Model;
 
-typedef enum : NSUInteger {
-    
-    kShowTextCellNormalType,
-    kShowTextCellExpendType,
-    
-} EShowTextCellType;
-
 @interface ModelCell : UITableViewCell
 @property (nonatomic, strong) Model *model;
 @property (nonatomic, weak) NSIndexPath *indexPath;
